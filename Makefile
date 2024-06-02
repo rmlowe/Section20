@@ -1,8 +1,8 @@
 .PHONY: clean All
 
 All:
-	@echo "----------Building project:[ FunctionTemplates - Debug ]----------"
-	@cd "FunctionTemplates" && "$(MAKE)" -f  "FunctionTemplates.mk"
+	@echo "----------Building project:[ ClassTemplates - Debug ]----------"
+	@cd "ClassTemplates" && "$(MAKE)" -f  "ClassTemplates.mk"
 clean:
-	@echo "----------Cleaning project:[ FunctionTemplates - Debug ]----------"
-	@cd "FunctionTemplates" && "$(MAKE)" -f  "FunctionTemplates.mk" clean
+	@echo "----------Cleaning project:[ ClassTemplates - Debug ]----------"
+	@cd "ClassTemplates" && "$(MAKE)" -f  "ClassTemplates.mk" clean
