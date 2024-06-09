@@ -1,5 +1,5 @@
 // Section 20
-// Challenge 1
+// Challenge 1 - Solution
 // Identifying palindrome strings using a deque
 #include <cctype>
 #include <deque>
@@ -10,9 +10,28 @@
 
 bool is_palindrome(const std::string& s)
 {
-    // You must implement this function.
-    // Since we are learning the STL - use a deque to solve the problem.
-    return false;
+    std::deque<char> d;
+
+    // add all the string characters that are alpha to the back of the deque in uppercase
+    for(char c : s)
+        if(std::isalpha(c))
+            d.push_back(std::toupper(c));
+
+    char c1{};
+    char c2{};
+    // while are more than 1 characters in the deque
+    //      remove and compare the front character with the back character
+    //      if they are not the same - return false since it can't be a palindrome
+    // if you complete the loop then the string must be a palindrome so return true
+    while(d.size() > 1) {
+        c1 = d.front();
+        c2 = d.back();
+        d.pop_front();
+        d.pop_back();
+        if(c1 != c2)
+            return false;
+    }
+    return true;
 }
 
 int main()
