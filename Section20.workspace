@@ -11,8 +11,8 @@
   <Project Name="Challenge_1" Path="Challenge_1/Challenge_1.project" Active="No"/>
   <Project Name="Challenge_1_Solution" Path="Challenge_1_Solution/Challenge_1_Solution.project" Active="No"/>
   <Project Name="List" Path="List/List.project" Active="No"/>
-  <Project Name="Challenge_2_Solution" Path="Challenge_2_Solution/Challenge_2_Solution.project" Active="No"/>
-  <Project Name="Challenge_2" Path="Challenge_2/Challenge_2.project" Active="Yes"/>
+  <Project Name="Challenge_2_Solution" Path="Challenge_2_Solution/Challenge_2_Solution.project" Active="Yes"/>
+  <Project Name="Challenge_2" Path="Challenge_2/Challenge_2.project" Active="No"/>
   <BuildMatrix>
     <WorkspaceConfiguration Name="Debug">
       <Environment/>
