@@ -19,8 +19,8 @@
   <Project Name="Challenge_3_Solution" Path="Challenge_3_Solution/Challenge_3_Solution.project" Active="No"/>
   <Project Name="Stack" Path="Stack/Stack.project" Active="No"/>
   <Project Name="Queue" Path="Queue/Queue.project" Active="No"/>
-  <Project Name="Challenge_4" Path="Challenge_4/Challenge_4.project" Active="Yes"/>
-  <Project Name="Challenge_4_Solution" Path="Challenge_4_Solution/Challenge_4_Solution.project" Active="No"/>
+  <Project Name="Challenge_4" Path="Challenge_4/Challenge_4.project" Active="No"/>
+  <Project Name="Challenge_4_Solution" Path="Challenge_4_Solution/Challenge_4_Solution.project" Active="Yes"/>
   <BuildMatrix>
     <WorkspaceConfiguration Name="Debug">
       <Environment/>
